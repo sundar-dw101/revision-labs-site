@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-brand-dark: #16181d; 
+  --color-brand-border: #2d3139;
+  /* Brightened silver for visibility */
+  --color-brand-silver: #c0c0c0; 
+}
+
+@layer base {
+  html {
+    /* Increasing base font size for better legibility */
+    font-size: 18px; 
+  }
+  body {
+    @apply bg-brand-dark text-zinc-200 antialiased;
+    /* Increased line height for technical logs */
+    line-height: 1.75; 
+  }
+}
