@@ -7,4 +7,12 @@ export default defineConfig({
     tailwindcss(),
     markdown({ mode: ['html'] })
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        notes: './notes.html'
+      },
+    },
+  },
 })

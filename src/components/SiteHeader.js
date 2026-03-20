@@ -11,7 +11,7 @@ class SiteHeader extends HTMLElement {
       </a>
       
       <nav class="flex gap-10 text-base font-bold tracking-normal uppercase text-zinc-300">
-        <a href="/blog" class="hover:text-white transition-colors underline-offset-8 hover:underline">Technical Blog</a>
+        <a href="/blog" class="hover:text-white transition-colors underline-offset-8 hover:underline">Lab Notes</a>
         <a href="https://revisionlabs3d.etsy.com" target="_blank" class="hover:text-white transition-colors underline-offset-8 hover:underline">Etsy Shop</a>
       </nav>
       
