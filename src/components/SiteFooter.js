@@ -7,7 +7,7 @@ class SiteFooter extends HTMLElement {
           <div class="space-y-4">
             <h4 class="text-white font-bold uppercase tracking-widest text-sm">Revision Labs 3D</h4>
             <p class="text-zinc-500 text-sm leading-relaxed max-w-xs">
-              High-performance additive manufacturing and functional prototyping. Specialized in PETG, TPU, and Carbon Fiber composites.
+              High-performance additive manufacturing and functional prototyping. Specialized in PETG, TPU, and PLA.
             </p>
           </div>
 
