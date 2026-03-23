@@ -23,7 +23,12 @@ if (feed) {
   feed.innerHTML = recentPosts.map(post => `
     <a href="/notes.html?id=${post.slug}" class="block p-6 border border-brand-border hover:border-orange-500 transition-all bg-brand-dark/50 group">
       <span class="text-xs font-mono text-zinc-500 uppercase">
-        ${new Date(post.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}
+        ${new Date(post.date).toLocaleDateString('en-CA', { 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        })}
+      
       </span>
       <h3 class="text-xl font-bold text-white mt-2 group-hover:text-orange-500 transition-colors">
         ${post.title}

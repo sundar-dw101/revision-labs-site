@@ -34,7 +34,13 @@ if (currentId) {
       </div>
       <article class="prose prose-invert lg:prose-xl max-w-none">
         <header class="mb-10 border-b border-zinc-800 pb-10">
-          <span class="text-zinc-500 font-mono text-sm uppercase tracking-widest">${post.date}</span>
+          <span class="text-zinc-500 font-mono text-sm uppercase tracking-widest">
+          ${new Date(post.date).toLocaleDateString('en-CA', { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            })}
+            </span>
           <h1 class="text-5xl font-black text-white mt-4 leading-tight">${post.title}</h1>
         </header>
         <div class="text-zinc-300">
